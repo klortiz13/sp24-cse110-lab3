@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Document Metadata: title meta link* -->
+  <!-- Document Metadata: -->
     <meta charset="utf-8" />
     <title>Kristhian's Meeting Minutes</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/images/favicon_io/site.webmanifest">
-    <link rel="icon" href="/images/favicon_io/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="icon" href="favicon/favicon.ico"/>
   </head>
   <body>
-  <!-- Content Sectioning: main header footer 
-    nav* h1, h2, h3 section*  -->
+  <!-- Content Sectioning: -->
     <header>
-      <nav>
-        
-
+      <nav class="to my page">
+        <p><a href="https://klortiz13.github.io/kristhia13/">Author's Page</a></p>
       </nav>
     </header>
     <main>
@@ -25,24 +23,60 @@
       <!-- Subtitle for meeting topic -->
       <h2>Meeting Topic: Lab 2</h2>
       <!-- Subtitle for Date -->
-      <h3>Date: <time datetime="2024-04-11"> April 11, 2024</time></h3>
+      <h2>Date: <time datetime="2024-04-11"> April 11, 2024</time></h2>
       <!-- Attendance List -->
-
+      <details>
+      <summary>Attendance List</summary>
+        <ul>
+          <li><span class="designer">Kristhian Ortiz</span></li>
+          <li><span class="team_lead">Hayden Kwok</span></li>
+          <li>Fiona Kuo</li>
+          <li>Daniel Leung</li>
+          <li>David Liu</li>
+          <li>Joshua Villanueva</li>
+          <li>Sang Do</li>
+          <li>Smruthi Gowtham</li>
+          <li>Spencer Ho</li>
+          <li>Timothy Lam</li>
+          <li>Yunfei Shih</li>
+        </ul>
+      </details>
       <!-- Agenda -->
-
-  <!-- Interactive Elements: details* summary* -->
+      <section>
+        <h3>Agenda</h3>
+        <ol>
+          <li>Ice Breaker</li>
+          <li>CSE 110 Project <b class="current_action">Brainstorm</b></li>
+          <li>CSE 110 Project <i>Design</i></li>
+          <li>CSE 110 Project <i>Implementation</i></li>
+          <li>CSE 110 Project Testing</li>
+        </ol>
+      </section>
+      <hr />
       <!-- Unfinished Business -->
-
+      <section>
+        <h3>Last Meeting's Unfinished Business</h3>
+        <p>Bug No.2908 was left unresolved</p>
+      </section>
       <!-- New Business -->
-
-      <!-- Comments -->
-
-
-  <!-- Images and Multimedia: img* audio* video* -->
+      <section>
+        <h3>New Business That Came up on This Meeting</h3>
+        <p>We need to go over the new bugs that came out, we currently have 67,942.</p>
+      </section>
+      <!-- Forms: -->
+      <!-- Comments (For input)-->
+      <section>
+        <form action="" method="get">
+        <textarea id="comments" rows="5" cols="50" placeholder="Write your comments here!"></textarea>
+      </form>
+      </section>
+<!-- Images and Multimedia: audio* video* -->
+  <div id="media">
       <!-- Pictures -->
-
+      <img class="diagram" src="pics/image.png" width="500"
+      alt="Diagram of the connection of classes within a mobile app" />
       <footer>
-
+        <p>Diagram of the connection of classes within a mobile app</p>
       </footer>
       <!-- Audio Recording -->
 
@@ -51,18 +85,35 @@
       </footer>
       <!-- Video Recording-->
 
+      <button type="submit">Play</button>
+      <!-- Random Footer-->      
       <footer>
-
+        <form action="" method="get" class="randomQ">
+          <fieldset>
+          <p>How did the meeting go?</p>
+          <div class="randomQ">
+            <label for="fc">This is the last question: <br> What's your <em>favorite</em> <strong>color</strong>?</label>
+            <input type="text" favorite_color="fc" id="fc" required />            
+          </div>
+          <div class="randomQ">
+            <input type="submit" value="Submit" />
+          </div>
+          <br>
+        <select id="color-select">
+          <datalist id="colors">
+            <option value="">Choose a color makes a good match</option>
+            <option value="dog">blue</option>
+            <option value="cat">black</option>
+            <option value="hamster">red</option>
+            <option value="parrot">brown</option>
+            <option value="spider">yellow</option>
+            <option value="goldfish">green</option>
+          </datalist>
+        </select>
+        </fieldset>
+        </form>
       </footer>
-      <!-- -->
-
-    </main>
-
-  <!-- Text Content: div* span* hr* p* ul* ol* li* -->
-
-  <!-- Inline Text Semantics: b* strong* i* em* a* br* -->
-
-  <!-- Forms: form* fieldset* input* textarea* datalist* select* option* button* -->
-
+  </div>
+  </main>
   </body>
 </html>
