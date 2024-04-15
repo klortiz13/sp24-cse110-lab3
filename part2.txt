@@ -2,16 +2,20 @@ Fill in the passphrases here.
 
 1. <!-- Passcode for question 1: greenEggsAndHam -->
   greenEggsAndHam
-2. 
-3. 
+2. <title data-question2="iHateCplusplus">Scavenger Hunt</title>
+  iHateCplusplus
+3. <p hidden=""> Passcode for question 3: HTMLRocks</p>
+  HTMLRocks
 4. <question-four style="display:none">Passcode: JavaScriptRules</question-four>
   JavaScriptRules
 5. 
 6. 
 7. 
-8.
+8.     /* Question 8 passcode: coolcoolcool */
+  coolcoolcool
 9. <h2>Question 9 passcode: 2020sucked</h2>
   2020sucked
 10.
 11.
-12.
+12. <div data-question12passcode="iLoveWebDev"></div>
+  iLoveWebDev
