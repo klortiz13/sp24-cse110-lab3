@@ -8,7 +8,8 @@ Fill in the passphrases here.
   HTMLRocks
 4. <question-four style="display:none">Passcode: JavaScriptRules</question-four>
   JavaScriptRules
-5. 
+5. <span style="opacity: 0;">Question 5 Passcode: SvelteBeatsReact</span>
+  SvelteBeatsReact
 6. // Question 6 Passcode: ThisIsJS
 ThisIsJS
 7. console.log('Question 7 Passcode: YouFoundMe');
@@ -19,6 +20,7 @@ YouFoundMe
   2020sucked
 10. https://cse110-fa22.github.io/Lab2_ScavengerHunt/question10.jpg
   listenToTheBlackKeys
-11.
+11. <meta name="question11" content="a11yComesFirst">
+  a11yComesFirst
 12. <div data-question12passcode="iLoveWebDev"></div>
   iLoveWebDev
