@@ -1,1 +1,17 @@
 Fill in the passphrases here.
+
+1. <!-- Passcode for question 1: greenEggsAndHam -->
+  greenEggsAndHam
+2. 
+3. 
+4. <question-four style="display:none">Passcode: JavaScriptRules</question-four>
+  JavaScriptRules
+5. 
+6. 
+7. 
+8.
+9. <h2>Question 9 passcode: 2020sucked</h2>
+  2020sucked
+10.
+11.
+12.
