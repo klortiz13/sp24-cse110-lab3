@@ -11,9 +11,9 @@ Fill in the passphrases here.
 5. <span style="opacity: 0;">Question 5 Passcode: SvelteBeatsReact</span>
   SvelteBeatsReact
 6. // Question 6 Passcode: ThisIsJS
-ThisIsJS
+  ThisIsJS
 7. console.log('Question 7 Passcode: YouFoundMe');
-YouFoundMe
+  YouFoundMe
 8. /* Question 8 passcode: coolcoolcool */
   coolcoolcool
 9. <h2>Question 9 passcode: 2020sucked</h2>
