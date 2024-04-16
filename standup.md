@@ -1,27 +1,21 @@
-# 2022-00-00 (Monday/Tuesday/Wednesday/Thursday/Friday)
+# Standup Date: MM/DD/YY 
 
-- [ ] Ben Peachey (SM)
-- [ ] John Doe (remote)
-- [ ] Jane Doe (PO)
-- [ ] Nomen Nescio 
-- [ ] …
-
-## Actions
+## What I've Done
 
 1. …
 
-## Announcements
+## What I'll do
 
 - …
 
-## Impediments
+## What's on My Way
 
 - …
 
-## Knowledge
+## Useful Tips I came Across
 
 - …
 
-## Other
+### Any Notes Here:
 
 …
