@@ -1,21 +1,21 @@
 # Standup Date: MM/DD/YY 
 
-## What I've Done
+## What I've Done:
 
 1. …
 
-## What I'll do
+## What I'll do:
 
 - …
 
-## What's on My Way
+## What's on My Way:
 
 - …
 
-## Useful Tips I came Across
+## Useful Tips I Came Across:
 
 - …
 
-### Any Notes Here:
+### Extra Notes Here:
 
 …
