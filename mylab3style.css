@@ -1,1 +1,28 @@
 /*This is my very first CSS file! Hello, CSS*/
+/* */
+
+/* Set up Heading 1 color */
+h1 {
+    color: rgb(143, 0, 159); 
+}
+
+/* Set Up Heading 2 color */
+h2 {
+    color:rgb(3, 15, 152);
+}
+
+/* Set Up Heading 3 color */
+h3 {
+    color: hsl(30deg 82% 43%);
+}
+
+/* Set Up Summary color */
+summary {
+    color: hsl(30deg 82% 43%);
+}
+
+/* Set up Paragraph color */
+p {
+    color: darkgreen; 
+}
+
