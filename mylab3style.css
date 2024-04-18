@@ -21,8 +21,14 @@ summary {
     color: hsl(30deg 82% 43%);
 }
 
-/* Set up Paragraph color */
-p {
-    color: darkgreen; 
+/* Variables in :root selector have global access */
+:root { 
+    --main-color: darkgreen; 
 }
 
+/* Set up Paragraph color */
+p {
+    /* Variable that has a fallback/backup */
+    color: var(--main-color,rgb(139, 0, 30)); 
+}
+  
