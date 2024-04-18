@@ -31,4 +31,16 @@ p {
     /* Variable that has a fallback/backup */
     color: var(--main-color,rgb(139, 0, 30)); 
 }
-  
+
+/* Apply background styles to your elements (classes) */
+.fieldSetBox {
+    background-color: aquamarine;
+}
+
+/* Website Background */
+body {
+    background-color: peachpuff;
+}
+
+
+
