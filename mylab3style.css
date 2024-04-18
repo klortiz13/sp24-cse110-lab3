@@ -26,12 +26,6 @@ summary {
     --main-color: darkgreen; 
 }
 
-/* Set up Paragraph color */
-p {
-    /* Variable that has a fallback/backup */
-    color: var(--main-color,rgb(139, 0, 30)); 
-}
-
 /* Apply background styles to your elements (classes) */
 /* Website Background */
 body {
@@ -117,8 +111,22 @@ button {
         /* Padding */
     /* Auto */
     padding: auto;
-    
+
         /* Margin */
     /* Auto */
     margin: auto;
+}
+
+/* Style your text */
+p {
+    /* Set up Paragraph color */
+    /* Variable that has a fallback/backup */
+    color: var(--main-color,rgb(139, 0, 30));
+    /* text-align */
+    text-align: start; 
+}
+
+span {  
+    /* text-decoration */
+    text-decoration: underline dotted;
 }
