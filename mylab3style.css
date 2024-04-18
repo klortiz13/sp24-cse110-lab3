@@ -33,15 +33,15 @@ p {
 }
 
 /* Apply background styles to your elements (classes) */
+/* Website Background */
+body {
+    background-color: peachpuff;
+}
+
 .fieldSetBox {
     background-color: aquamarine;
     /* Third Absolute Unit*/
     width: 6in;
-}
-
-/* Website Background */
-body {
-    background-color: peachpuff;
 }
 
 /* Units of measurement for sizing and spacing your elements */
@@ -60,15 +60,65 @@ body {
     font-size: 2vw;
 }
 
-img {
-    /* First Absolute Unit*/
-    width: 500px;
-}
-
+/* Configure the containers that hold your HTML content */
 textarea {
-    /* Second Absolute Unit*/
+    /* First Absolute Unit*/
     width: 13cm;
+        /* Borders */
+    /* LONG hand border-style */
+    border-left-style: groove;
+    /* LONG hand border-color */
+    border-top-color: rgb(155, 111, 7);
+    /* LONG hand border-width */
+    border-top-width: 3px;
+    border-left-width: 2.5px;
+    /* LONG hand border-radius */
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+        /* Margin */
+    /* Long */
+    margin-top: .1em;
+    margin-bottom: 1em;
+    margin-left: .1em;
+    margin-right: .1em;
+    
+        /* Padding */
+    /* Long */
+    padding-top: .5em;
+    padding-bottom: .01em;
+    padding-left: .5em;
+    padding-right: .5em;
 }
 
+img {
+        /* Borders */
+    /* Second Absolute Unit*/
+    width: 500px;
+    /* SHORT hand border-style */
+    border-style: dashed;
+    /* SHORT hand border-color */
+    border-color: green;
+    /* SHORT hand border-width */
+    border-width: thick;
+    /* SHORT hand border-radius */
+    border-radius: 13px;
 
+        /* Margin */
+    /* Short */
+    margin: 1.1em 1em 1em 1em;
 
+        /* Padding */
+    /* Short */
+    padding: .3em .3em .3em .3em;
+}
+
+button {
+        /* Padding */
+    /* Auto */
+    padding: auto;
+    
+        /* Margin */
+    /* Auto */
+    margin: auto;
+}
