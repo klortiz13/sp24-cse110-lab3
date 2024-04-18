@@ -35,11 +35,39 @@ p {
 /* Apply background styles to your elements (classes) */
 .fieldSetBox {
     background-color: aquamarine;
+    /* Third Absolute Unit*/
+    width: 6in;
 }
 
 /* Website Background */
 body {
     background-color: peachpuff;
+}
+
+/* Units of measurement for sizing and spacing your elements */
+.attendance_list li {
+    /* First Relative Unit */
+    font-size: 1.05em;
+}
+
+.attendance_list .team_lead {
+    /* Second Relative Unit */
+    font-size: 1.3rem;
+}
+
+.attendance_list .designer {
+    /* Third Relative Unit */
+    font-size: 2vw;
+}
+
+img {
+    /* First Absolute Unit*/
+    width: 500px;
+}
+
+textarea {
+    /* Second Absolute Unit*/
+    width: 13cm;
 }
 
 
