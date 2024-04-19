@@ -46,7 +46,7 @@
       <!-- Agenda -->
       <section>
         <h3>Agenda</h3>
-        <ol>
+        <ol class="agenda_container">
           <li>Ice Breaker</li>
           <li>CSE 110 Project <b class="current_action">Brainstorm</b></li>
           <li>CSE 110 Project <i>Design</i></li>
@@ -73,77 +73,76 @@
       </section>
       <!-- Images and Multimedia -->
       <div id="media">
-      <!-- Pictures -->
-      <img class="diagram" src="./pics/image.png"
-      alt="Diagram of the connection of classes within a mobile app">
-      <footer>
-        <p>Diagram of the connection of classes within a mobile app</p>
-      </footer>
-      <!-- Audio Recording -->
-      <h3>Meeting Audio Recording:</h3>
-      <figure>
-        <figcaption>Listen to "Master Your Mindset" by Shade Zahrai:</figcaption>
-        <audio controls src="./media/audio.m4a"></audio>
-        <a href="./media/audio.m4a"> Download audio </a>
-      </figure>
-      <footer>
-        <p>Credits: Master your Mindset, Overcome Self-Deception, Change your Life  _ Shadé Zahrai _ TEDxDRC</p>
-      </footer>
-      <!-- Video Recording-->
-      <h3>Meeting Video Recording:</h3>
-      <video controls width="250">
-        <source src="./media/Change_is_possible.mp4" type="video/webm">
-        <source src="./media/Change_is_possible.mp4" type="video/mp4">
-        Download the
-        <a href="./media/Change_is_possible.mp4">WEBM</a>
-        or
-        <a href="./media/Change_is_possible.mp4">MP4</a>
-        video.
-      </video>
-      <button type="submit">Liked this!</button>
+        <!-- Pictures -->
+        <img class="diagram" src="./pics/image.png"
+        alt="Diagram of the connection of classes within a mobile app">
+        <footer>
+          <p>Diagram of the connection of classes within a mobile app</p>
+        </footer>
+        <!-- Audio Recording -->
+        <h3>Meeting Audio Recording:</h3>
+        <figure class="audio_rec">
+          <figcaption id="audio_caption">Listen to "Master Your Mindset" by Shade Zahrai:</figcaption>
+          <audio controls src="./media/audio.m4a"></audio>
+          <a href="./media/audio.m4a"> Download audio </a>
+        </figure>
+        <footer>
+          <p>Credits: Master your Mindset, Overcome Self-Deception, Change your Life  _ Shadé Zahrai _ TEDxDRC</p>
+        </footer>
+        <!-- Video Recording-->
+        <h3>Meeting Video Recording:</h3>
+        <video controls width="250">
+          <source src="./media/Change_is_possible.mp4" type="video/webm">
+          <source src="./media/Change_is_possible.mp4" type="video/mp4">
+          Download the
+          <a href="./media/Change_is_possible.mp4">WEBM</a>
+          or
+          <a href="./media/Change_is_possible.mp4">MP4</a>
+          video.
+        </video>
+        <button type="submit">Liked this!</button>
+      </div>
       <!-- Random Footer-->      
       <footer>
         <fieldset class="fieldSetBox">
-        <p>How did the meeting go? Let's get to know you a little better.</p>
-        <div class="randomQ">
-          <label for="fc">What's your <em>favorite</em> <strong>color</strong>?</label>
-          <input type="text" id="fc" required>            
-        </div>
-        <div class="randomQ">
-          <input type="submit" value="Submit">
-        </div>
-        <br>
-        <select id="color-select">
-          <option value="">Choose a color makes a good match</option>
-          <option value="dog">blue</option>
-          <option value="cat">black</option>
-          <option value="hamster">red</option>
-          <option value="parrot">brown</option>
-          <option value="spider">yellow</option>
-          <option value="goldfish">green</option>
-        </select>
-        <label for="ice-cream-choice">Choose a flavor:</label>
-        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
-        <datalist id="ice-cream-flavors">
-          <option value="Chocolate"></option>
-          <option value="Coconut"></option>
-          <option value="Mint"></option>
-          <option value="Strawberry"></option>
-          <option value="Vanilla"></option>
-        </datalist>
-
-        <form action="./form_answers/ans.txt" method="get" class="form-example">
-          <div class="form-example">
-            <label for="email">Enter your email: </label>
-            <input type="email" name="email" id="email" required>
+          <p>How did the meeting go? Let's get to know you a little better.</p>
+          <div class="randomQ">
+            <label for="fc">What's your <em>favorite</em> <strong>color</strong>?</label>
+            <input type="text" id="fc" required>            
           </div>
-          <div class="form-example">
-            <input type="submit" value="Subscribe!">
+          <div class="randomQ">
+            <input type="submit" value="Submit">
           </div>
-        </form>
+          <br>
+          <select id="color-select">
+            <option value="">Choose a color makes a good match</option>
+            <option value="dog">blue</option>
+            <option value="cat">black</option>
+            <option value="hamster">red</option>
+            <option value="parrot">brown</option>
+            <option value="spider">yellow</option>
+            <option value="goldfish">green</option>
+          </select>
+          <label for="ice-cream-choice">Choose a flavor:</label>
+          <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+          <datalist id="ice-cream-flavors">
+            <option value="Chocolate"></option>
+            <option value="Coconut"></option>
+            <option value="Mint"></option>
+            <option value="Strawberry"></option>
+            <option value="Vanilla"></option>
+          </datalist>
+          <form action="./form_answers/ans.txt" method="get" class="form-example">
+            <div class="form-example">
+              <label for="email">Enter your email: </label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-example">
+              <input type="submit" value="Subscribe!">
+            </div>
+          </form>
         </fieldset>
       </footer>
-      </div>
     </main>
   </body>
 </html>
