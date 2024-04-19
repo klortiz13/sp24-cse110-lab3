@@ -198,4 +198,409 @@ textarea:active {
     grid-column-end: 1 \ -1;
 }
 
-  
+/* Responsiveness */
+/* Phone up to 500px wide */
+@media all and (max-width: 500px) {
+    summary {
+        font-size: x-large;
+    }
+
+    .agenda_container li {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: larger;
+    }
+
+    h3 {
+        font-size: large;
+    }
+
+    .fieldSetBox {
+        background-color: aquamarine;
+        /* Third Absolute Unit*/
+        width: 6in;
+    }
+    
+    /* Units of measurement for sizing and spacing your elements */
+    .attendance_list li {
+        /* First Relative Unit */
+        font-size: 1.6em;
+    }
+    
+    .attendance_list .team_lead {
+        /* Second Relative Unit */
+        font-size: 1.8rem;
+    }
+    
+    .attendance_list .designer {
+        /* Third Relative Unit */
+        font-size: 3vw;
+    }
+    
+    /* Configure the containers that hold your HTML content */
+    textarea {
+        /* First Absolute Unit*/
+        width: 10cm;
+            /* Borders */
+        /* LONG hand border-style */
+        border-left-style: groove;
+        /* LONG hand border-color */
+        border-top-color: rgb(155, 111, 7);
+        /* LONG hand border-width */
+        border-top-width: 3px;
+        border-left-width: 2.5px;
+        /* LONG hand border-radius */
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    
+            /* Margin */
+        /* Long */
+        margin-top: .1em;
+        margin-bottom: 1em;
+        margin-left: .1em;
+        margin-right: .1em;
+        
+            /* Padding */
+        /* Long */
+        padding-top: .5em;
+        padding-bottom: .01em;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    
+    img {
+            /* Borders */
+        /* Second Absolute Unit*/
+        width: 300px;   /* Sizing */
+        height: 180px;
+        /* SHORT hand border-style */
+        border-style: dashed;
+        /* SHORT hand border-color */
+        border-color: green;
+        /* SHORT hand border-width */
+        border-width: thick;
+        /* SHORT hand border-radius */
+        border-radius: 13px;
+    
+            /* Margin */
+        /* Short */
+        margin: 1.1em 1em 1em 1em;
+    
+            /* Padding */
+        /* Short */
+        padding: .3em .3em .3em .3em;
+    }
+    
+    button {
+            /* Padding */
+        /* Auto */
+        padding: auto;
+    
+            /* Margin */
+        /* Auto */
+        margin: auto;
+    }
+    
+    /* Style your text */
+    p {
+        /* Set up Paragraph color */
+        /* Variable that has a fallback/backup */
+        color: var(--main-color,rgb(139, 0, 30));
+        /* text-align */
+        text-align: start; 
+        font-size: large;
+    }
+    
+    span {  
+        /* text-decoration */
+        text-decoration: underline dotted;
+    }
+    
+    /* Display */
+    .agenda_container li {
+        display: block;
+        background-color: rgb(111, 236, 222);
+        padding: .3em .3em .3em .3em;
+        margin-block: .5em;
+        /* Max Sizing */
+        max-width: 220px;
+        max-height: 18px;
+    }
+    
+    /* Position */
+    #audio_caption {
+        display: inline;
+        background-color: tan;
+        position: relative;
+        bottom: 20px; left: 50px;
+        font-size: medium;
+    }
+    
+    audio {
+        position: relative;
+        top: 10px; right:62px;
+    }
+    
+    #audio_credits {
+        position: absolute;
+        top: 1400px; left: 810px;
+        font-size: medium;
+    }
+    
+    video {
+        position: relative;
+        left: 135px;
+        width: 500px;
+    }
+    
+    #like_button {
+        position: sticky;
+        left: 650px;
+        width: 90px;
+        height: 20px;
+        font-size: medium;
+    }
+    
+    /* Pseudo-Classes */
+    button:hover {
+        color: rgb(0, 157, 255);
+    }
+    
+    textarea:active {
+        box-shadow: 2px 2px 5px #fc894d;
+    }
+    
+    /* Flex */
+    .fieldSetBox {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-flow: column;
+    }
+    
+    /* Grid */
+    .notes {
+        display: grid;
+        /* start | middle | end */
+        grid-template-columns: repeat(3,2fr);
+        grid-column-gap: 13px;
+        grid-column-end: 1 \ -1;
+    }  
+
+    label {
+        font-size: larger;
+    }
+
+    input {
+        font-size: larger;
+    }
+
+    select {
+        font-size: larger;
+    }
+}
+
+/* iPad 500px to 1024px*/
+@media all and (min-width:501px) and (max-width: 1024px) {
+    summary {
+        font-size: xx-large;
+    }
+
+    h2 {
+        font-size:xx-large;
+    }
+
+    h3 {
+        font-size: x-large;
+    }
+
+    .fieldSetBox {
+        background-color: aquamarine;
+        /* Third Absolute Unit*/
+        width: 7in;
+    }
+    
+    /* Units of measurement for sizing and spacing your elements */
+    .attendance_list li {
+        /* First Relative Unit */
+        font-size: 1.6em;
+    }
+    
+    .attendance_list .team_lead {
+        /* Second Relative Unit */
+        font-size: 1.8rem;
+    }
+    
+    .attendance_list .designer {
+        /* Third Relative Unit */
+        font-size: 3vw;
+    }
+    
+    /* Configure the containers that hold your HTML content */
+    textarea {
+        /* First Absolute Unit*/
+        width: 10cm;
+            /* Borders */
+        /* LONG hand border-style */
+        border-left-style: groove;
+        /* LONG hand border-color */
+        border-top-color: rgb(155, 111, 7);
+        /* LONG hand border-width */
+        border-top-width: 3px;
+        border-left-width: 2.5px;
+        /* LONG hand border-radius */
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    
+            /* Margin */
+        /* Long */
+        margin-top: .1em;
+        margin-bottom: 1em;
+        margin-left: .1em;
+        margin-right: .1em;
+        
+            /* Padding */
+        /* Long */
+        padding-top: .5em;
+        padding-bottom: .01em;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    
+    img {
+            /* Borders */
+        /* Second Absolute Unit*/
+        width: 600px;   /* Sizing */
+        height: 250px;
+        /* SHORT hand border-style */
+        border-style: dashed;
+        /* SHORT hand border-color */
+        border-color: green;
+        /* SHORT hand border-width */
+        border-width: thick;
+        /* SHORT hand border-radius */
+        border-radius: 13px;
+    
+            /* Margin */
+        /* Short */
+        margin: 1.1em 1em 1em 1em;
+    
+            /* Padding */
+        /* Short */
+        padding: .3em .3em .3em .3em;
+    }
+    
+    button {
+            /* Padding */
+        /* Auto */
+        padding: auto;
+    
+            /* Margin */
+        /* Auto */
+        margin: auto;
+    }
+    
+    /* Style your text */
+    p {
+        /* Set up Paragraph color */
+        /* Variable that has a fallback/backup */
+        color: var(--main-color,rgb(139, 0, 30));
+        /* text-align */
+        text-align: start; 
+        font-size: larger;
+    }
+    
+    span {  
+        /* text-decoration */
+        text-decoration: underline dotted;
+    }
+    
+    /* Display */
+    .agenda_container li {
+        display: block;
+        background-color: rgb(111, 236, 222);
+        padding: .3em .3em .3em .3em;
+        margin-block: .5em;
+        /* Max Sizing */
+        max-width: 220px;
+        max-height: 18px;
+    }
+    
+    /* Position */
+    #audio_caption {
+        display: inline;
+        background-color: tan;
+        position: relative;
+        bottom: 55px; left: 250px;
+        font-size: larger;
+    }
+    
+    audio {
+        position: relative;
+        top: 10px; right:62px;
+    }
+    
+    #audio_credits {
+        position: absolute;
+        top: 1400px; left: 810px;
+        font-size: medium;
+    }
+    
+    video {
+        position: relative;
+        left: 135px;
+        width: 500px;
+    }
+    
+    #like_button {
+        position: sticky;
+        left: 650px;
+        width: 90px;
+        height: 20px;
+        font-size: medium;
+    }
+    
+    /* Pseudo-Classes */
+    button:hover {
+        color: rgb(0, 157, 255);
+    }
+    
+    textarea:active {
+        box-shadow: 2px 2px 5px #fc894d;
+    }
+    
+    /* Flex */
+    .fieldSetBox {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-flow: column;
+    }
+    
+    /* Grid */
+    .notes {
+        display: grid;
+        /* start | middle | end */
+        grid-template-columns: repeat(3,2fr);
+        grid-column-gap: 13px;
+        grid-column-end: 1 \ -1;
+    }  
+
+    label {
+        font-size: larger;
+    }
+
+    input {
+        font-size: larger;
+    }
+
+    select {
+        font-size: larger;
+    }
+}
+/* Everything above 1020px wide will be considered a desktop, normal behavior expected*/
+
+
+
