@@ -181,5 +181,21 @@ textarea:active {
     box-shadow: 2px 2px 5px #fc894d;
 }
 
+/* Flex */
+.fieldSetBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: column;
+}
+
+/* Grid */
+.notes {
+    display: grid;
+    /* start | middle | end */
+    grid-template-columns: repeat(3,2fr);
+    grid-column-gap: 13px;
+    grid-column-end: 1 \ -1;
+}
 
   

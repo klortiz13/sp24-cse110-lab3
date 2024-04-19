@@ -56,21 +56,23 @@
       </section>
       <hr>
       <!-- Unfinished Business -->
-      <section>
-        <h3>Last Meeting's Unfinished Business</h3>
-        <p>Bug No.2908 was left unresolved</p>
-      </section>
-      <!-- New Business -->
-      <section>
-        <h3>New Business That Came up on This Meeting</h3>
-        <p>We need to go over the new bugs that came out, we currently have 67,942.</p>
-      </section>
-      <!-- Forms: -->
-      <!-- Comments (For input)-->
-      <section>
-        <h3>Got any comments? Write them down below!</h3>
-        <textarea id="comments" rows="5" cols="50" placeholder="Write your comments here!"></textarea>
-      </section>
+      <div class="notes">
+        <section>
+          <h3 id="start">Last Meeting's Unfinished Business</h3>
+          <p>Bug No.2908 was left unresolved</p>
+        </section>
+        <!-- New Business -->
+        <section>
+          <h3 id="middle">New Business That Came up on This Meeting</h3>
+          <p>We need to go over the new bugs that came out, we currently have 67,942.</p>
+        </section>
+        <!-- Forms: -->
+        <!-- Comments (For input)-->
+        <section>
+          <h3 id="end">Got any comments? Write them down below!</h3>
+          <textarea id="comments" rows="5" cols="50" placeholder="Write your comments here!"></textarea>
+        </section>
+      </div>
       <!-- Images and Multimedia -->
       <div class="media">
         <!-- Pictures -->
@@ -117,6 +119,7 @@
             <option value="spider">yellow</option>
             <option value="goldfish">green</option>
           </select>
+          <br>
           <label for="ice-cream-choice">Choose a flavor:</label>
           <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
           <datalist id="ice-cream-flavors">
