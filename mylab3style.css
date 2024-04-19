@@ -130,3 +130,17 @@ span {
     /* text-decoration */
     text-decoration: underline dotted;
 }
+
+/* Display */
+.agenda_container li {
+    display: block;
+    background-color: rgb(111, 236, 222);
+    width: 220px;
+    padding: .3em .3em .3em .3em;
+    margin-block: .5em;
+}
+
+#audio_caption {
+    display: inline;
+    background-color: tan;
+}
