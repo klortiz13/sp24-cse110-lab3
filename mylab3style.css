@@ -88,7 +88,8 @@ textarea {
 img {
         /* Borders */
     /* Second Absolute Unit*/
-    width: 500px;
+    width: 500px;   /* Sizing */
+    height: 200px;
     /* SHORT hand border-style */
     border-style: dashed;
     /* SHORT hand border-color */
@@ -135,9 +136,11 @@ span {
 .agenda_container li {
     display: block;
     background-color: rgb(111, 236, 222);
-    width: 220px;
     padding: .3em .3em .3em .3em;
     margin-block: .5em;
+    /* Max Sizing */
+    max-width: 220px;
+    max-height: 18px;
 }
 
 #audio_caption {
