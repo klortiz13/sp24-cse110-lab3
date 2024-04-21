@@ -147,10 +147,6 @@ img {
 }
 
 button {
-        /* Padding */
-    /* Auto */
-    padding: auto;
-
         /* Margin */
     /* Auto */
     margin: auto;
@@ -346,11 +342,7 @@ textarea:active {
         padding: .3em .3em .3em .3em;
     }
     
-    button {
-            /* Padding */
-        /* Auto */
-        padding: auto;
-    
+    button {    
             /* Margin */
         /* Auto */
         margin: auto;
@@ -545,12 +537,8 @@ textarea:active {
         padding: .3em .3em .3em .3em;
     }
     
-    button {
-            /* Padding */
-        /* Auto */
-        padding: auto;
-    
-            /* Margin */
+    button {    
+        /* Margin */
         /* Auto */
         margin: auto;
     }
