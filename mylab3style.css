@@ -6,6 +6,19 @@
     font-style: normal;
 }  
 
+/* has() */
+h2:has(+ h2) {
+    font-size: xx-large;
+    background-color: rgb(0, 255, 136);
+    text-align: center;
+}
+
+/* Universal Selector */
+* {
+    margin: .4em;
+}
+
+/* Element Selector */
 main {
     font-family: "Jersey 20";
 }
@@ -20,13 +33,8 @@ h2 {
     color:rgb(3, 15, 152);
 }
 
-/* Set Up Heading 3 color */
-h3 {
-    color: hsl(30deg 82% 43%);
-}
-
-/* Set Up Summary color */
-summary {
+/* Set Up Heading 3 and Summary color */
+h3, summary { /* Selector List */
     color: hsl(30deg 82% 43%);
 }
 
@@ -41,6 +49,7 @@ body {
     background-color: peachpuff;
 }
 
+/* Class Selector */
 .fieldSetBox {
     background-color: aquamarine;
     /* Third Absolute Unit*/
@@ -53,11 +62,13 @@ body {
     font-size: 1.05em;
 }
 
-.attendance_list .team_lead {
+/* Attribute Selector */
+.attendance_list [class~="team_lead"] {
     /* Second Relative Unit */
     font-size: 1.3rem;
 }
 
+/* Descendant Combinator */
 .attendance_list .designer {
     /* Third Relative Unit */
     font-size: 2vw;
@@ -115,6 +126,24 @@ img {
         /* Padding */
     /* Short */
     padding: .3em .3em .3em .3em;
+    position: relative;
+    left: 325px;
+}
+
+/* Ajacent Sibling Combinator */
+img + footer {
+    font-size: large;
+    position: relative;
+    bottom: 20px; left: 380px;
+}
+
+/* Nested Selector */
+img {
+    ~ h3 {
+        font-size: xx-large;
+        text-align: center;
+        margin: 26px;
+    }
 }
 
 button {
@@ -141,8 +170,8 @@ span {
     text-decoration: underline dotted;
 }
 
-/* Display */
-.agenda_container li {
+/* Display for Agenda & Child Combinator*/
+ol > li {
     display: block;
     background-color: rgb(111, 236, 222);
     padding: .3em .3em .3em .3em;
@@ -152,33 +181,41 @@ span {
     max-height: 18px;
 }
 
+/* Combining two selectors */
+li > b[class="current_action"]{
+    font-size: larger;
+    background-color: #6dfc4d;
+}
+
 /* Position */
 #audio_caption {
     display: inline;
     background-color: tan;
     position: relative;
-    bottom: 55px; left: 250px;
+    bottom: 65px; left: 440px;
 }
 
 audio {
     position: relative;
-    top: 10px; right:62px;
+    top: 10px; left:120px;
 }
 
-#audio_credits {
+/* General Sibling Combinator (equivalent to #audio_credits) */
+button ~ p {
     position: absolute;
-    top: 1400px; left: 810px;
+    top: 1155px; left: 820px;
     font-size: small;
 }
 
 video {
     position: relative;
-    left: 280px;
+    left: 420px;
 }
 
+/* ID Selector */
 #like_button {
     position: sticky;
-    left: 650px;
+    left: 810px;
 }
 
 /* Pseudo-Classes */
@@ -205,6 +242,13 @@ textarea:active {
     grid-template-columns: repeat(3,2fr);
     grid-column-gap: 13px;
     grid-column-end: 1 \ -1;
+}
+
+.lastOne {
+    position: relative;
+    left: 300px;
+    width: 100%;
+    margin: auto;
 }
 
 /* Responsiveness */

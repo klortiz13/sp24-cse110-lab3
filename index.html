@@ -27,7 +27,7 @@
       <!-- Title -->
       <h1>Meeting Minutes</h1>
       <!-- Subtitle for meeting topic -->
-      <h2>Meeting Topic: Lab 2</h2>
+      <h2>Meeting Topic: Lab 3 - Hello, CSS!</h2>
       <!-- Subtitle for Date -->
       <h2>Date: <time datetime="2024-04-11"> April 11, 2024</time></h2>
       <!-- Attendance List -->
@@ -52,7 +52,7 @@
         <h3>Agenda</h3>
         <ol class="agenda_container">
           <li>Ice Breaker</li>
-          <li>CSE 110 Project <b class="current_action">Brainstorm</b></li>
+          <li class="curr_stage">CSE 110 Project <b class="current_action">Brainstorm</b></li>
           <li>CSE 110 Project <i>Design</i></li>
           <li>CSE 110 Project <i>Implementation</i></li>
           <li>CSE 110 Project Testing</li>
@@ -102,48 +102,50 @@
         <!-- Credits for Video and Audio-->
         <p id="audio_credits">Credits: Master your Mindset, Overcome Self-Deception, Change your Life  _ Shadé Zahrai _ TEDxDRC</p>
       </div>
-      <!-- Random Footer-->      
-      <footer>
-        <fieldset class="fieldSetBox">
-          <p>How did the meeting go? Let's get to know you a little better.</p>
-          <div class="randomQ">
-            <label for="fc">What's your <em>favorite</em> <strong>color</strong>?</label>
-            <input type="text" id="fc" required>            
-          </div>
-          <div class="randomQ">
-            <input type="submit" value="Submit">
-          </div>
-          <br>
-          <select id="color-select">
-            <option value="">Choose a color makes a good match</option>
-            <option value="dog">blue</option>
-            <option value="cat">black</option>
-            <option value="hamster">red</option>
-            <option value="parrot">brown</option>
-            <option value="spider">yellow</option>
-            <option value="goldfish">green</option>
-          </select>
-          <br>
-          <label for="ice-cream-choice">Choose a flavor:</label>
-          <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
-          <datalist id="ice-cream-flavors">
-            <option value="Chocolate"></option>
-            <option value="Coconut"></option>
-            <option value="Mint"></option>
-            <option value="Strawberry"></option>
-            <option value="Vanilla"></option>
-          </datalist>
-          <form action="./form_answers/ans.txt" method="get" class="form-example">
-            <div class="form-example">
-              <label for="email">Enter your email: </label>
-              <input type="email" name="email" id="email" required>
+      <!-- Random Footer-->   
+      <div class="lastOne">
+        <footer>
+          <fieldset class="fieldSetBox">
+            <p>How did the meeting go? Let's get to know you a little better.</p>
+            <div class="randomQ">
+              <label for="fc">What's your <em>favorite</em> <strong>color</strong>?</label>
+              <input type="text" id="fc" required>            
             </div>
-            <div class="form-example">
-              <input type="submit" value="Subscribe!">
+            <div class="randomQ">
+              <input type="submit" value="Submit">
             </div>
-          </form>
-        </fieldset>
-      </footer>
+            <br>
+            <select id="color-select">
+              <option value="">Choose a color makes a good match</option>
+              <option value="dog">blue</option>
+              <option value="cat">black</option>
+              <option value="hamster">red</option>
+              <option value="parrot">brown</option>
+              <option value="spider">yellow</option>
+              <option value="goldfish">green</option>
+            </select>
+            <br>
+            <label for="ice-cream-choice">Choose a flavor:</label>
+            <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+            <datalist id="ice-cream-flavors">
+              <option value="Chocolate"></option>
+              <option value="Coconut"></option>
+              <option value="Mint"></option>
+              <option value="Strawberry"></option>
+              <option value="Vanilla"></option>
+            </datalist>
+            <form action="./form_answers/ans.txt" method="get" class="form-example">
+              <div class="form-example">
+                <label for="email">Enter your email: </label>
+                <input type="email" name="email" id="email" required>
+              </div>
+              <div class="form-example">
+                <input type="submit" value="Subscribe!">
+              </div>
+            </form>
+          </fieldset>
+        </footer>
+      </div>  
     </main>
   </body>
 </html>
